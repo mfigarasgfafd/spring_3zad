@@ -56,6 +56,8 @@ public class App {
                     user = iur.getUser(user.getLogin());
                     break;
                 case "2":
+                    ivr.returnVehicle(user.getRentedPlate() ,user.getLogin());
+
                     System.out.println("function for return car");
                     break;
                 case "6":
